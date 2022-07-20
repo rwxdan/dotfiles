@@ -2,7 +2,7 @@
 --- 
 ## Go to your local candy store (use your package manager) and grab these accordingly:
 - vim
-- powerline-fonts
+- [powerline fonts](https://github.com/powerline/fonts)
 - [ShellCheck](https://github.com/koalaman/shellcheck)
 - xclipboard or wl-clipboard (Linux only)
 
