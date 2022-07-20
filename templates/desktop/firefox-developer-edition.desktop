@@ -1,0 +1,29 @@
+[Desktop Entry]
+Version=1.0
+Name=Firefox Developer Edition
+GenericName=Navegador Web
+Comment=Navegue por la web
+Exec=/opt/firefox-de/firefox/firefox %u
+Icon=/opt/firefox-de/firefox/browser/chrome/icons/default/default128.png
+Terminal=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
+Categories=Network;WebBrowser;
+StartupNotify=true
+Keywords=web;browser;internet;
+StartupWMClass=FirefoxDeveloperEdition
+Actions=new-window;new-private-window;profile-manager-window;
+
+X-Desktop-File-Install-Version=0.26
+
+[Desktop Action new-window]
+Name=Nueva ventana
+Exec=/opt/firefox-de/firefox/firefox--new-window %u
+
+[Desktop Action new-private-window]
+Name=Nueva ventana privada
+Exec=/opt/firefox-de/firefox/firefox --private-window %u
+
+[Desktop Action profile-manager-window]
+Name=Gestionar perfiles
+Exec=/opt/firefox-de/firefox/firefox --ProfileManager %u

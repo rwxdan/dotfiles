@@ -1,0 +1,39 @@
+so ~/.vim/keymaps.vim
+so ~/.vim/plug.vim
+syntax enable
+
+set smarttab
+set nohlsearch
+set ignorecase
+" set smartcase
+set incsearch
+set encoding=utf-8
+set ruler
+set showcmd
+set wildmenu
+set cursorline
+set number
+set relativenumber
+set numberwidth=1
+set noerrorbells
+set mouse=a
+set title
+set background=dark
+set autoread
+set sw=2
+set noswapfile
+
+if has('termguicolors')
+	set termguicolors
+endif
+
+let g:sonokai_style = 'andromeda'
+let g:sonokai_enable_italic = 1
+let g:sonokai_better_performance = 1
+let g:sonokai_transparent_background = 1
+colorscheme sonokai
+" let g:onedark_terminal_italics=1
+" let g:onedark_hide_endofbuffer=1
+" let g:onedark_termcolors=256
+" colorscheme onedark
+let g:airline_theme='sonokai'
