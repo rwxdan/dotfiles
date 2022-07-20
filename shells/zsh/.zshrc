@@ -7,14 +7,13 @@ bindkey -e
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-zstyle :compinstall filename '~/.zshrc'
+# zstyle :compinstall filename '~/.zshrc'
 
 zstyle ':completion:*' menu select
 # Auto complete with case insenstivity
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
 autoload -Uz compinit && compinit -u
-autoload -U colors && colors
 
 WORDCHARS=${WORDCHARS//\/}
 
