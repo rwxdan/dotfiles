@@ -1,6 +1,6 @@
 # List of dependencies
 - neovim
-- python3-pynvim
+- python3-neovim
 - fonts-powerline
 - nodejs
 - [ShellCheck](https://github.com/koalaman/shellcheck)
