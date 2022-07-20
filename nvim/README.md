@@ -1,7 +1,7 @@
 # List of dependencies
 - neovim
 - python3-neovim
-- fonts-powerline
+- [power line fonts](https://github.com/powerline/fonts)
 - nodejs
 - [ShellCheck](https://github.com/koalaman/shellcheck)
 ## Install [vim-plug](https://github.com/junegunn/vim-plug)
