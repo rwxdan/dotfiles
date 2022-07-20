@@ -16,7 +16,10 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 
 autoload -Uz compinit && compinit -u
 autoload -U colors && colors
 
+WORDCHARS=${WORDCHARS//\/}
+
 # Load personal aliases
+
 [ -f ~/.zsh/zsh_aliases ] && . ~/.zsh/zsh_aliases
 [ -f ~/.zsh/pm_aliases.zsh ] && . ~/.zsh/pm_aliases.zsh
 
@@ -25,12 +28,12 @@ autoload -U colors && colors
 
 # Plugins
 antigen bundle zsh-users/zsh-autosuggestions
+# zsh autosuggestions custom suggestions
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 antigen bundle zsh-users/zsh-syntax-highlighting
-# antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle hlissner/zsh-autopair
 antigen bundle Tarrasch/zsh-command-not-found
 antigen bundle joshskidmore/zsh-fzf-history-search
-# antigen bundle trapd00r/zsh-syntax-highlighting-filetypes
 # Load plugins
 antigen apply
 
