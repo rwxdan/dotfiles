@@ -3,6 +3,12 @@ HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd extendedglob notify hist_expire_dups_first hist_ignore_dups HIST_IGNORE_ALL_DUPS hist_save_no_dups hist_ignore_space hist_verify
 bindkey -e
+bindkey '^[[3;5~' kill-word
+bindkey '^[[1;5C' forward-word
+bindkey '^[[1;5D' backward-word
+bindkey '^[[5~' beginning-of-buffer-or-history
+bindkey '^[[6~' end-of-buffer-or-history 
+bindkey '^[[Z' undo
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
