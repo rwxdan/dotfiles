@@ -2,6 +2,7 @@ call plug#begin()
 
 " Colorscheme
 Plug 'Mofiqul/adwaita.nvim'
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 " Status bar
 Plug 'vim-airline/vim-airline'
 let g:airline_powerline_fonts = 1
@@ -34,5 +35,11 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <leader>t :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 Plug 'ryanoasis/vim-devicons'
+
+" Remember where the cursor was
+Plug 'farmergreg/vim-lastplace'
+
+" Get css colors
+Plug 'ap/vim-css-color'
 
 call plug#end()
