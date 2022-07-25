@@ -1,8 +1,8 @@
 # Replace cat with bat if installed
-[ -x /usr/bin/bat ] && alias cat="bat"
+test -x /usr/bin/bat && alias cat="bat"
 
 # Color lists
-if [ -x /usr/bin/exa ]; then
+if test -x /usr/bin/exa 
     alias ls='exa -alhSU --octal-permissions --icons'
     alias la='exa -a --color=auto'
     alias ll='exa -la --color=auto'
@@ -10,7 +10,7 @@ else
     alias ls='ls --color=auto'
     alias la='ls -a --color=auto'
     alias ll='ls -la --color=auto'
-fi
+end
 
 # Continous download
 alias wget="wget -c"
@@ -26,7 +26,7 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
 # Readable df output by using duf
-[ -x /usr/bin/duf ] && alias df='duf'
+test -x /usr/bin/duf && alias df='duf'
 
 # Get the error messages from journalctl
 alias jctl="journalctl -p 3 -xb -q"
