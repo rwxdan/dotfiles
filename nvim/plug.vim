@@ -1,11 +1,10 @@
 call plug#begin()
 
 " Colorscheme
-Plug 'Mofiqul/adwaita.nvim'
-Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+Plug 'phanviet/vim-monokai-pro'
+
 " Status bar
 Plug 'vim-airline/vim-airline'
-let g:airline_powerline_fonts = 1
 Plug 'vim-airline/vim-airline-themes'
 
 " General syntax commenter
