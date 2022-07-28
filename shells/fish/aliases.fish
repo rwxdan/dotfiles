@@ -4,8 +4,6 @@ test -x /usr/bin/bat && alias cat="bat"
 # Color lists
 if test -x /usr/bin/exa 
     alias ls='exa -alhSU --octal-permissions --icons'
-    alias la='exa -a --color=auto'
-    alias ll='exa -la --color=auto'
 else
     alias ls='ls --color=auto'
     alias la='ls -a --color=auto'
@@ -33,3 +31,5 @@ alias jctl="journalctl -p 3 -xb -q"
 
 # Editor
 alias edit="nvim"
+alias rpi="ssh dcastro@192.168.1.100"
+alias srv="ssh dcastro@192.168.1.112"
