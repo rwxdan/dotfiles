@@ -30,7 +30,7 @@ show_always = false
 
 [cmd_duration]
 min_time = 10_000 
-format = " took [$duration]($style)"
+format = "took [$duration]($style)"
 
 [memory_usage]
 format = "$symbol[${ram}( | ${swap})]($style) "
