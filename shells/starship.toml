@@ -1,9 +1,12 @@
-# Don't print a new line at the start of the prompt
 add_newline = false
 
-# Make prompt a single line instead of two lines
-[line_break]
-disabled = true
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[✖](bold red)"
+
+[directory]
+truncation_length = 5
+format = "[$path]($style)[$lock_symbol]($lock_style) "
 
 [git_commit]
 commit_hash_length = 8
@@ -21,12 +24,16 @@ trim_at = "-"
 style = "bold dimmed white"
 disabled = true
 
-[time]
-time_format = "%T"
-format = "🕙 $time($style) "
-style = "bright-white"
-disabled = true
-
 [username]
 style_user = "bold green"
 show_always = false
+
+[cmd_duration]
+min_time = 10_000 
+format = " took [$duration]($style)"
+
+[memory_usage]
+format = "$symbol[${ram}( | ${swap})]($style) "
+threshold = 70
+style = "bold dimmed white"
+disabled = false
