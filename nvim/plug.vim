@@ -2,6 +2,7 @@ call plug#begin()
 
 " Colorscheme
 Plug 'phanviet/vim-monokai-pro'
+Plug 'ellisonleao/gruvbox.nvim'
 
 " Status bar
 Plug 'vim-airline/vim-airline'
@@ -40,5 +41,5 @@ Plug 'farmergreg/vim-lastplace'
 
 " Get css colors
 Plug 'ap/vim-css-color'
-
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end()

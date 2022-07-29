@@ -27,6 +27,5 @@ if has('termguicolors')
 	set termguicolors
 endif
 
-colorscheme monokai_pro
-let g:airline_theme = 'wombat'
-
+colorscheme gruvbox
+let g:airline_theme = 'distinguished'
