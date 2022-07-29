@@ -33,7 +33,8 @@ vim.cmd [[
   if has('termguicolors')
     set termguicolors
   endif
-  colorscheme gruvbox
+  colorscheme monokai
 ]]
 
-vim.g.airline_theme = "distinguished"
+vim.g.airline_theme = "minimalist"
+vim.g.monokai_term_italic = 1

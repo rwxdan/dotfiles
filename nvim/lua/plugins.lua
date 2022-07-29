@@ -4,8 +4,7 @@ return require('packer').startup(function(use)
   use ("wbthomason/packer.nvim")
 
   -- colorscheme
-  use("ellisonleao/gruvbox.nvim") 
-
+  use("crusoexia/vim-monokai")
   -- status bar
   use ("vim-airline/vim-airline")
   use ("vim-airline/vim-airline-themes")
