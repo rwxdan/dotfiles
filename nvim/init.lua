@@ -29,12 +29,13 @@ set.clipboard = "unnamedplus"
 set.title = true
 set.sw = 2
 
+vim.g.gruvbox_italic_term = 1
 vim.cmd [[
   if has('termguicolors')
     set termguicolors
   endif
-  colorscheme monokai
+  colorscheme gruvbox
 ]]
 
-vim.g.airline_theme = "minimalist"
-vim.g.monokai_term_italic = 1
+vim.g.airline_theme = "distinguished"
+

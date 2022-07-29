@@ -5,6 +5,7 @@ return require('packer').startup(function(use)
 
   -- colorscheme
   use("crusoexia/vim-monokai")
+  use("gruvbox-community/gruvbox")
   -- status bar
   use ("vim-airline/vim-airline")
   use ("vim-airline/vim-airline-themes")
