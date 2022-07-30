@@ -38,4 +38,3 @@ vim.cmd [[
 ]]
 
 vim.g.airline_theme = "distinguished"
-
