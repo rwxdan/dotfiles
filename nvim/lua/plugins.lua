@@ -4,6 +4,7 @@ return require('packer').startup(function(use)
   use ("wbthomason/packer.nvim")
 
   -- colorscheme
+  use ("tanvirtin/monokai.nvim")
   use("christianchiarulli/nvcode-color-schemes.vim")
   -- status bar
   use ("vim-airline/vim-airline")
