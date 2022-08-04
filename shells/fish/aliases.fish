@@ -31,5 +31,3 @@ alias jctl="journalctl -p 3 -xb -q"
 
 # Editor
 alias edit="nvim"
-alias rpi="ssh dcastro@192.168.1.100"
-alias srv="ssh dcastro@192.168.1.112"
