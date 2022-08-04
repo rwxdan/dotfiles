@@ -29,7 +29,7 @@ style_user = "bold green"
 show_always = false
 
 [cmd_duration]
-min_time = 10_000 
+min_time = 5_000
 format = "took [$duration]($style)"
 
 [memory_usage]
