@@ -2,14 +2,14 @@ local set = vim.opt
 
 -- set.background = "dark"
 set.cursorline = true
-set.hlsearch = true
+set.hlsearch = false
 set.ignorecase = true
 set.smartcase = true
 set.backup = false
 set.writebackup = false
 set.undofile = true
 set.swapfile = false
-set.tabstop = 4
+set.tabstop = 2
 set.shiftwidth = 0
 set.softtabstop = -1
 set.expandtab = true
@@ -30,7 +30,8 @@ set.cindent = true
 set.wrap = true
 set.textwidth = 300
 set.termguicolors = true
+-- vim.g.tokyonight_style = "night"
 vim.cmd [[
-   colorscheme nvcode
+  colorscheme nvcode
 ]]
 vim.g.airline_theme = "lucius"

@@ -6,6 +6,7 @@ return require('packer').startup(function(use)
   -- colorscheme
   use ("tanvirtin/monokai.nvim")
   use("christianchiarulli/nvcode-color-schemes.vim")
+  use ("folke/tokyonight.nvim")
   -- status bar
   use ("vim-airline/vim-airline")
   use ("vim-airline/vim-airline-themes")
@@ -21,8 +22,8 @@ return require('packer').startup(function(use)
   use ("mhinz/vim-signify")
 
   -- Conquer of completion
-  use ("neoclide/coc.nvim", 
-    { branch = 'release' })
+  use ({"neoclide/coc.nvim",
+    branch = 'release'})
 
   -- autopairing 
   use ("jiangmiao/auto-pairs")
@@ -30,7 +31,7 @@ return require('packer').startup(function(use)
 
   -- NERDTree
   use ("preservim/nerdtree")
-  
+
   -- icon support
   use ("ryanoasis/vim-devicons")
 
@@ -41,7 +42,7 @@ return require('packer').startup(function(use)
   use ("ap/vim-css-color")
 
   -- treesitter
-  use ("nvim-treesitter/nvim-treesitter", 
+  use ("nvim-treesitter/nvim-treesitter",
     { run = ':TSUpdate' })
 
 end) 
