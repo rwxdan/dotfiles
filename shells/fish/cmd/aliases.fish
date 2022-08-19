@@ -34,5 +34,3 @@ abbr -a -U -- jctl "journalctl -p 3 -xe"
 
 # Editor
 abbr -a -U -- edit "nvim"
-abbr -a -U -- rpi "ssh dcastro@192.168.1.100"
-abbr -a -U -- srv "ssh dcastro@192.168.1.112"
