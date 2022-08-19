@@ -4,11 +4,10 @@ end
 
 
 set -gx PATH "/home/dcastro/.local/bin:/home/dcastro/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin"
-set -Ux EDITOR nvim
+set -gx EDITOR /usr/bin/nvim 
 
-test -f ~/.config/fish/aliases.fish && . ~/.config/fish/aliases.fish
-test -f ~/.config/fish/pm_aliases.fish && . ~/.config/fish/pm_aliases.fish
+test -f ~/.config/fish/cmd/aliases.fish && . ~/.config/fish/cmd/aliases.fish
+test -f ~/.config/fish/cmd/pm_aliases.fish && . ~/.config/fish/cmd/pm_aliases.fish
 
 zoxide init fish | source
 starship init fish | source
-
