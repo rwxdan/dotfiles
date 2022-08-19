@@ -34,3 +34,8 @@ abbr -a -U -- jctl "journalctl -p 3 -xe"
 
 # Editor
 abbr -a -U -- edit "nvim"
+
+# Git support
+abbr -a -U -- ga "git add"
+abbr -a -U -- gc "git commit"
+abbr -a -U -- gp "git push"
