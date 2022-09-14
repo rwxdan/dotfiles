@@ -4,7 +4,8 @@ return require('packer').startup(function(use)
   use ("wbthomason/packer.nvim")
 
   -- colorscheme
-  use("christianchiarulli/nvcode-color-schemes.vim")
+  use({ "briones-gabriel/darcula-solid.nvim", 
+    requires = "rktjmp/lush.nvim" })
   -- status bar
   use ("vim-airline/vim-airline")
   use ("vim-airline/vim-airline-themes")

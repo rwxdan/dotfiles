@@ -32,6 +32,6 @@ set.textwidth = 300
 set.termguicolors = true
 -- vim.g.tokyonight_style = "night"
 vim.cmd [[
-  colorscheme nvcode
+  colorscheme darcula-solid
 ]]
 vim.g.airline_theme = "lucius"
