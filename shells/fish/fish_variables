@@ -9,12 +9,12 @@ SETUVAR FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
 SETUVAR FZF_TMUX_HEIGHT:40\x25
 SETUVAR --export --path PATH:/home/dcastro/\x2elocal/bin\x1e/home/dcastro/bin\x1e/usr/local/bin\x1e/usr/local/sbin\x1e/usr/bin\x1e/usr/sbin
 SETUVAR __fish_initialized:3400
-SETUVAR _fish_abbr_cat:bat
 SETUVAR _fish_abbr_cd_2E_2E_:cd\x20\x2e\x2e
+SETUVAR _fish_abbr_df:duf
 SETUVAR _fish_abbr_edit:nvim
-SETUVAR _fish_abbr_egrep:egrep\x20\x2d\x2dcolor\x3dauto
-SETUVAR _fish_abbr_fgrep:fgrep\x20\x2d\x2dcolor\x3dauto
-SETUVAR _fish_abbr_grep:grep\x20\x2d\x2dcolor\x3dauto
+SETUVAR _fish_abbr_ga:git\x20add
+SETUVAR _fish_abbr_gc:git\x20commit
+SETUVAR _fish_abbr_gp:git\x20push
 SETUVAR _fish_abbr_jctl:journalctl\x20\x2dp\x203\x20\x2dxe
 SETUVAR _fish_abbr_la:exa\x20\x2da
 SETUVAR _fish_abbr_lf:exa\x20\x2dalhSU\x20\x2d\x2doctal\x2dpermissions\x20\x2d\x2dicons
@@ -30,13 +30,17 @@ SETUVAR _fish_abbr_plist:dnf\x20\x2dC\x20list
 SETUVAR _fish_abbr_prm:sudo\x20dnf\x20autoremove
 SETUVAR _fish_abbr_pupd:sudo\x20dnf\x20check\x2dupdate
 SETUVAR _fish_abbr_pupg:sudo\x20dnf\x20up\x20\x2d\x2drefresh\x20\x2d\x2dallowerasing
-SETUVAR _fish_abbr_rpi:ssh\x20dcastro\x40192\x2e168\x2e1\x2e100
-SETUVAR _fish_abbr_srv:ssh\x20dcastro\x40192\x2e168\x2e1\x2e112
 SETUVAR _fish_abbr_wget:wget\x20\x2dc
+SETUVAR _fish_abbr_za:zoxide\x20add
+SETUVAR _fish_abbr_zq:zoxide\x20query
+SETUVAR _fish_abbr_zqi:zoxide\x20query\x20\x2di
+SETUVAR _fish_abbr_zr:zoxide\x20remove
 SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:\x7e/\x2econfig/fish/functions/_autopair_backspace\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_left\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_right\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_same\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_tab\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/autopair\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/autopair\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR _tide_left_items:\x1d
+SETUVAR _tide_right_items:\x1d
 SETUVAR fish_color_autosuggestion:4D5566
 SETUVAR fish_color_cancel:\x2d\x2dreverse
 SETUVAR fish_color_command:39BAE6

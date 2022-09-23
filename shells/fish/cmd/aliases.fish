@@ -1,5 +1,5 @@
 # Replace cat with bat if installed
-test -x /usr/bin/bat && abbr -a -U -- cat "bat"
+test -x /usr/bin/bat && alias cat="bat"
 
 # Color lists
 if test -x /usr/bin/exa
@@ -20,11 +20,6 @@ abbr -a -U -- wget "wget -c"
 # Fix obvious typo's
 abbr -a -U -- pdw 'pwd'
 abbr -a -U -- cd.. 'cd ..'
-
-# Colorize the grep command output for ease of use (good for log files)#
-abbr -a -U -- grep 'grep --color=auto'
-abbr -a -U -- egrep 'egrep --color=auto'
-abbr -a -U -- fgrep 'fgrep --color=auto'
 
 # Readable df output by using duf
 test -x /usr/bin/duf && abbr -a -U -- df 'duf'
