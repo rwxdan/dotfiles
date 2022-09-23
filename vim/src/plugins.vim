@@ -5,9 +5,7 @@
 call plug#begin()
 
 " Colorscheme
-Plug 'sainnhe/sonokai'
-Plug 'joshdick/onedark.vim'
-
+Plug 'doums/darcula'
 " Status bar
 Plug 'vim-airline/vim-airline'
 let g:airline_powerline_fonts = 1
@@ -19,6 +17,9 @@ let g:NERDCreateDefaultMappings = 1
 let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
 let g:NERDTrimTrailingWhitespace = 1
+
+" Nerdtree
+Plug 'preservim/nerdtree'
 
 " Git wrapper 
 Plug 'tpope/vim-fugitive'
