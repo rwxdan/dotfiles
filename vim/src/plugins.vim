@@ -5,7 +5,8 @@
 call plug#begin()
 
 " Colorscheme
-Plug 'doums/darcula'
+Plug 'tomasiser/vim-code-dark'
+Plug 'ghifarit53/tokyonight-vim'
 " Status bar
 Plug 'vim-airline/vim-airline'
 let g:airline_powerline_fonts = 1
